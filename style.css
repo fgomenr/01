@@ -26,12 +26,12 @@ ul {
   list-style-type: none;
 }
 .idiomas ul {
-    cursor:pointer;
+  cursor: pointer;
 
   color: white;
 }
 .idiomas ul li {
-    cursor:pointer;
+  cursor: pointer;
   color: white;
 }
 .idiomas ul li ul {
@@ -113,3 +113,137 @@ nav li:hover > ul {
     right: 180px;
   }
 }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.productomasVendido {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: baseline;
+  align-items: center;
+}
+.productomasVendido img {
+  width: 150px;
+  height: 150px;
+}
+
+.masVisitados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.masVisitados table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.masVisitados th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.masVisitados th {
+  background-color: #f2f2f2;
+}
+.masVisitados tr:hover {
+  background-color: #f5f5f5;
+}
+
+.tendenciasDecoracion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el título de los artículos */
+.tendenciasDecoracion h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Estilos para el texto de los artículos */
+.tendenciasDecoracion p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+.FormularioOpiniones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FormularioOpiniones form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.FormularioOpiniones fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.FormularioOpiniones legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.FormularioOpiniones div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.FormularioOpiniones label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.FormularioOpiniones input[type="text"],
+.FormularioOpiniones input[type="email"],
+.FormularioOpiniones select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.FormularioOpiniones select {
+  padding-right: 24px;
+}
+
+
+
+.FormularioOpiniones button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.FormularioOpiniones button:hover {
+  background-color: #555;
+}
+

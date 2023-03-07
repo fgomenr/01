@@ -1,12 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Aqui iria la ruta a la pagina traducida a ese idioma -->
+    <link rel="alternate" hreflang="en" href="http://example.com/en" />
+    <link rel="alternate" hreflang="fr" href="http://example.com/fr" />
+    <link rel="alternate" hreflang="de" href="http://example.com/de" />
+
 </head>
+
 <body>
-    <h1>HOLI</h1>
+    <header>
+
+        <div class="logo" tabindex="1">
+
+            <a href="index.html"><img
+                    src="https://static.wikia.nocookie.net/memes-pedia/images/4/4f/Gigachad.jpg/revision/latest?cb=20201122221724&path-prefix=es">
+            </a>
+        </div>
+        <div>
+
+            <div class="idiomas" tabindex="2">
+
+                <ul>
+                    <li>IDIOMAS
+                        <ul>
+                            <li><a hreflang="en" href="http://example.com/en">Ingles</a></li>
+                            <li><a href="http://example.com/de">Aleman</a></li>
+                            <li><a href="http://example.com/fr">Frances</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="hamburguesa">
+            <i class="bi bi-list" style="font-size: 3em;color: white;"></i>
+        </div>
+        <nav id="nav" tabindex="3">
+            <ul>
+                <li><a href="https://www.incibe.es/"> Productos </a></li>
+                <li><a href="https://www.osi.es/es"> Casa y Hogar </a></li>
+                <li> <a> Tendecias y Futuro</a>
+                    <ul>
+                        <li><a href="tendencias.html"> Tendencias</a> </li>
+                        <li><a href="https://incual.educacion.gob.es/"> Simulaciones en 3D</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="productomasVendido">
+            <h1>Producto mas vendido</h1>
+            <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+            <p>Precio 23€</p>
+            <p>Valoracion: Muy bueno</p>
+            <!-- debe aparecer una imagen del producto (servicio),
+             nombre del producto (servicio), precio y valoración del
+            producto (servicio). -->
+
+
+        </div>
+        <div class="masVisitados">
+            <h1>Productos más visitados</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Número de visitas</th>
+                        <th>Número de like</th>
+                        <th>Valoración media de los clientes</th>
+                        <th>Número de unidades en stock</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Producto 1</td>
+                        <td>100</td>
+                        <td>50</td>
+                        <td>4.5</td>
+                        <td>10</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 2</td>
+                        <td>80</td>
+                        <td>40</td>
+                        <td>4.2</td>
+                        <td>20</td>
+                        <td>$35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 3</td>
+                        <td>70</td>
+                        <td>30</td>
+                        <td>3.9</td>
+                        <td>15</td>
+                        <td>$25.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 4</td>
+                        <td>60</td>
+                        <td>20</td>
+                        <td>3.6</td>
+                        <td>5</td>
+                        <td>$45.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 5</td>
+                        <td>50</td>
+                        <td>10</td>
+                        <td>3.2</td>
+                        <td>25</td>
+                        <td>$30.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" style="text-align: right;">Totales:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total de productos mostrados:</td>
+                        <td>5</td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total de visitas:</td>
+                        <td>360</td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total de like realizados:</td>
+                        <td>150</td>
+                        <td colspan="3"></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+        <div class="tendenciasDecoracion">
+            <h3> Artículo 1: "Nuevos materiales para muebles de alta calidad"</h3>
+            <img src="https://via.placeholder.com/300x200.png" alt="imagen de muebles" align="left">
+
+            <p>En nuestra empresa siempre estamos en busca de ofrecer lo mejor a nuestros clientes, y es por eso que
+                estamos orgullosos de presentar nuestros nuevos materiales para muebles de alta calidad. Estos
+                materiales han sido cuidadosamente seleccionados para garantizar la durabilidad, resistencia y belleza
+                de nuestros productos. Además, ofrecemos una amplia variedad de diseños para satisfacer las necesidades
+                y gustos de nuestros clientes. ¡Visítanos y descubre nuestras nuevas opciones!</p>
+            <p>Fecha de publicación: 15 de julio de 2022</p>
+            <p>Autor: Juan Pérez</p>
+
+            <h3> Artículo 2: "Accesorios únicos para tu hogar"</h3>
+            <img src="https://via.placeholder.com/300x200.png" alt="imagen de accesorios para el hogar" align="left">
+
+            <p>¿Buscas darle un toque especial a tu hogar? Tenemos la solución perfecta para ti. En nuestra tienda
+                encontrarás una gran variedad de accesorios únicos que harán que cualquier espacio luzca increíble.
+                Desde cojines con diseños originales hasta lámparas con formas inusuales, nuestra selección es amplia y
+                diversa. ¡Déjate sorprender por nuestra creatividad y visita nuestra tienda hoy mismo!</p>
+            <p>Fecha de publicación: 7 de marzo de 2023</p>
+            <p>Autor: Ana García</p>
+            
+        </div>
+
+        <div class="FormularioOpiniones">
+           <h1> <legend>Formulario de opiniones y suscripciones:</legend></h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos obligatorios</legend>
+                    <div>
+                        <label for="nick">Nick/Identificador (máximo 8 caracteres):</label>
+                        <input type="text" id="nick" name="nick" maxlength="8" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico (ejemplo@ejemplo.com):</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="productos">Productos que más te han gustado:</label>
+                        <select id="productos" name="productos"  required>
+                            <option value="producto1">Producto 1</option>
+                            <option value="producto2">Producto 2</option>
+                            <option value="producto3">Producto 3</option>
+                            <option value="producto4">Producto 4</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="codigo_postal">Código Postal de residencia (5 caracteres numéricos):</label>
+                        <input type="text" id="codigo_postal" name="codigo_postal" pattern="[0-4]{1}[0-9]{4}" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Datos opcionales</legend>
+                    <div class="checkandradio">
+                        <label>Redes sociales que sigues habitualmente:</label>
+                        <input type="checkbox" id="red1" name="red1" value="facebook">
+                        <label for="red1">Facebook</label>
+                        <input type="checkbox" id="red2" name="red2" value="twitter">
+                        <label for="red2">Twitter</label>
+                        <input type="checkbox" id="red3" name="red3" value="instagram">
+                        <label for="red3">Instagram</label>
+                    </div>
+                    <div class="checkandradio">
+                        <label>¿Contratarías servicio de montaje de muebles en caso de realizar un pedido?</label>
+                        <input type="radio" id="si" name="montaje" value="si">
+                        <label for="si">Sí</label>
+                        <input type="radio" id="no" name="montaje" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <!-- 
+    Información accesible.
+    Todos los contenidos son accesibles ya sea desde el menú de navegación principal o desde alguno de los enlaces.
+    No existen enlaces que no conducen a ninguna parte.
+    Todos los enlaces muestran el contenido que se esperaba.    
+
+    Consistencia.
+        Los enlaces se ponen de otro color cuando estas encima de ellos
+    Persistencia.
+    Sigo la regla general de que las barras de navegación se colocan a lo ancho de la página, en su parte superior,
+    por debajo del encabezado o formando parte de él.
+
+    Sencillez de navegación.
+
+    El logotipo de la empresa u organismo del sitio web que suele ir colocado en el 
+    encabezamiento de todas las páginas del sitio y que sirve de enlace de regreso a la página principal.
+
+    Teclas aceleradoras. 
+
+        Uso el atributo tabindex para poder navegar entre los enlaces de la cabecera sin necesidad de usar el raton
+
+
+
+
+-->
+
+
+
+
+    <script>
+        document.getElementsByClassName("hamburguesa")[0].addEventListener("mouseover", () => {
+            document.getElementById("nav").style.display = "block";
+            document.getElementById("nav").addEventListener("mouseover", () => {
+                document.getElementById("nav").style.display = "block";
+            });
+
+        });
+        document.getElementsByClassName("hamburguesa")[0].addEventListener("mouseout", () => {
+            document.getElementById("nav").removeAttribute("style");
+            document.getElementById("nav").addEventListener("mouseout", () => {
+                document.getElementById("nav").removeAttribute("style");
+
+            });
+        });
+
+    </script>
 </body>
+
 </html>
